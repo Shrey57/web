@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifestyle Store</title>
+        <style type="text/css">
+            body {
+                min-width: 400px;
+                margin: 0px;
+            }
+        
+        .topNavBar{
+            background-color: black;
+        }
+        #title{
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            color: rgb(170, 169, 169);
+            padding: 15px;
+            font-size: 25px;
+            padding-left: 20px;
+            width: 39%;
+            border: black solid 1px;
+            background-color: black;
+        }
+        #login{
+            text-align: right;
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            width: 40%;
+            font-size: 25px;
+            padding-right: 10%;
+        }
+        button{
+            font-size: 15px;
+            color: rgb(170, 169, 169);
+            background-color: black;
+            border:none;
+            width: 30%;
+            padding: 15px;
+        }
+        #title:hover,button:hover{
+            cursor: pointer;
+        }
+        #footer{
+            font-size: 20px;
+            color: #929191;
+            background-color: rgb(48, 47, 47);
+            text-align: center;
+        } 
+        #image{
+            position: relative;
+        }
+        .box{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            position: absolute;
+            left: 20%;
+            top: 20%;
+            background-color :  rgba(0, 0, 0, 0.705);
+            text-align: center;
+            width: 60%;
+            height: auto;
+            padding-top: 6%;     padding-bottom: 6%; 
+            max-height: 60%;
+        }
+       
+        #shop{border: none;
+            padding: 10px;
+            color: white;
+            width: 100px;
+            background-color:rgb(219, 21, 21);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+        }
+
+
+
+        #shopnow{
+            padding: 15px;
+        }
+        
+        a {
+            color: #929191;
+            text-decoration: none;
+        
+        }
+        #title:hover,button:hover,a:hover{
+            color: rgb(71, 71, 71);
+        }
+        .botContainer{
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            position: relative;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            height: 500px;
+            border: solid none;
+        }
+        .a,.b,.c{
+            min-height: 250px;
+            text-align: center;
+            position: absolute;
+            width: 30%;
+            border: rgb(128, 125, 125) solid 1px;
+        }
+        .a{
+            top: 0%;
+        }
+        .b{
+            left: 35%;
+        }
+        .c{
+            right: 0%;
+        }
+        p{
+            margin-top: 5%;
+            margin-bottom: 2%;
+        }
+       
+       
+        </style>
+
+
+        
+
+    </head>
+    <body>
+            <div class="topNavBar">    
+                    <div  >
+                        <input type="button" value="Lifestyle Stores" id="title"/>
+                    </div> 
+                    <div  id="login">
+                        <button id="topButton"><a href="Login.html">Log In</a> </button>
+                        <button id="topButtons"><a href="User.html">Sign In</a></button>
+                    </div>
+                </div>
+        <div id="image" >
+            <img src="back.jpg" , width="100%"/>
+            <div class="box">
+                <p style="font-size:40px" >We sell lifestyle</p>
+                <p>Flat 40% OFF on premium brands</p>
+                <div id="shopnow">
+                    <button id="shop">Shop Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="botContainer">
+            <div class="a">
+                <img src="camera.jpg" height="auto" width="100%"/>
+                    <div id="in">    
+                        <h2 >Cameras</h2>
+                        <p>Choose among the best available in the world</p>
+                    </div>
+            </div>
+
+            <div class="b">
+                <img src="watch.jpg" height="auto" width="100%"/>
+                    <div id="in">    
+                        <h2 >Watches</h2>
+                        <p>Original watches from the best brands.</p>
+                    </div>
+            </div>
+            
+            <div class="c">
+                <img src="shirt.jpg" height="auto" width="100%"/>
+                    <div id="in">    
+                        <h2 >Shirts</h2>
+                        <p>Our exquisite collection of shirts.</p>
+                    </div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <p>Copyright @ Lifestyle Store. All Rights Reserved  |  Contact Us: +91 90000 00000 </p>
+        </div>
+    
+    </body>
+</html>
